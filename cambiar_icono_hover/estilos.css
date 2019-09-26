@@ -1,0 +1,11 @@
+.icono-facebook {
+    color: blue;
+}
+.icono-facebook::before {
+    content: "\f09a"; /* \f09a es el codigo de el icono de facebook en FontAwesome */
+    font-family: FontAwesome; /* Debo seleccionar la tipografia de FontAwesome */
+    font-style: normal; /* Elimino el tipo italica que viene predefinido */
+}
+.icono-facebook:hover::before {
+    content: "\f230"; /* Lo cambio por otro icono de FontAwesome */
+}
